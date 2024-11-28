@@ -35,10 +35,10 @@ const SignIn = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
-        width: 400,
+        width: { xs: "90%", sm: 400 },
         maxHeight: 400,
         margin: "auto",
-        p: { xs: 4, md: 6, lg: 8 },
+        p: { xs: 3, sm: 4, md: 6, lg: 8 },
         boxShadow: 3,
       }}
     >
