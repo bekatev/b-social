@@ -52,7 +52,7 @@ const SignUp = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
-        width: { xs: "90%", sm: 400 },
+        width: { sm: "90%", md: 400 },
         maxHeight: 400,
         margin: "auto",
         p: { xs: 3, sm: 4, md: 6, lg: 8 },
