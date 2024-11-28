@@ -38,7 +38,7 @@ const SignIn = () => {
         width: { sm: "90%", md: 400 },
         maxHeight: 400,
         margin: "auto",
-        p: { xs: 3, sm: 4, md: 6, lg: 8 },
+        p: { xs: 1, sm: 4, md: 6, lg: 8 },
         boxShadow: 3,
       }}
     >
