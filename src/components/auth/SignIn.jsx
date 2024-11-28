@@ -35,11 +35,13 @@ const SignIn = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
-        width: { sm: "90%", md: 400 },
-        maxHeight: 400,
+        width: { xs: "90%", sm: 400 },
+        maxWidth: 600,
         margin: "auto",
-        p: { xs: 1, sm: 4, md: 6, lg: 8 },
+        p: { xs: 3, sm: 4, md: 6 },
         boxShadow: 3,
+        borderRadius: 2,
+        height: "auto",
       }}
     >
       <Typography variant="h5">Sign In</Typography>
